@@ -1,0 +1,72 @@
+.wrapper {
+  width: 60%;
+  margin: 0 auto;
+  min-height: 400px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  text-align: center;
+  padding: 30px;
+}
+
+body {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.coins {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.coins img {
+  width: 30px;
+}
+
+.big_coin {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 30px;
+  background-image: url(./bigcoin.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.001s;
+}
+
+.big_coin:active {
+  transform: scale(0.98);
+}
+
+.count {
+  font-family: "Calligraffitti", cursive;
+  font-weight: 700;
+  font-size: 30px;
+  text-shadow: -15px 5px 20px #ced0d3;
+  /* transform: translate(-50%, -50%); */
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #e6c949;
+  /* text-shadow: 5px 5px 0px #ffb650, 10px 10px 0px #ffd662, 15px 15px 0px #ff80bf,
+    20px 20px 0px #ef5097, 25px 25px 0px #6868ac, 30px 30px 0px #90b1e0; */
+}
+
+.logo {
+  font-family: "Calligraffitti", cursive;
+  font-weight: 700;
+  font-size: 4rem;
+  /* position: absolute; */
+  text-shadow: -15px 5px 20px #ced0d3;
+  top: 50%;
+  left: 50%;
+  /* transform: translate(-50%, -50%); */
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #f9f1cc;
+  text-shadow: 5px 5px 0px #ffb650, 10px 10px 0px #ffd662, 15px 15px 0px #6868ac,
+    20px 20px 0px #90b1e0;
+}
